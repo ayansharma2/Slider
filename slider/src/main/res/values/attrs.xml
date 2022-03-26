@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideToPay">
+        <attr name="frontRectangleColor" format="reference|color"/>
+        <attr name="sliderColor" format="reference|color"/>
+        <attr name="sliderDrawable" format="reference"/>
+        <attr name="title" format="string"/>
+        <attr name="frontTextColor" format="color|reference"/>
+        <attr name="backTextColor" format="color|reference"/>
+        <attr name="backRectangleColor" format="color|reference"/>
+        <attr name="frontRectangleStrokeColor" format="color|reference"/>
+        <attr name="backRectangleStrokeColor" format="reference|color"/>
+        <attr name="rectangleStrokeWidth" format="dimension"/>
+    </declare-styleable>
+</resources>

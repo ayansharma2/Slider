@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="50dp"
+        android:text="Hello World!"
+        android:id="@+id/tv"
+        app:roundPercent="50"
+        android:scaleType="centerCrop"
+        android:transitionName="profile" />
+
+    <com.ayan.slider.SlideToPay
+        android:layout_width="300dp"
+        android:id="@+id/slider"
+        app:frontRectangleColor="#D4D17B"
+        app:backRectangleColor="#6BB858"
+        android:layout_marginHorizontal="30dp"
+        app:title="Swipe to Pay"
+        android:layout_marginBottom="50dp"
+        app:sliderDrawable="@drawable/ic_arrow_foraward"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="50dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
