@@ -16,7 +16,7 @@ import java.lang.Integer.min
 import kotlin.math.max
 import kotlin.math.roundToInt
 
-class SlideToPay(context: Context, attrs: AttributeSet) : View(context, attrs) {
+class Slider(context: Context, attrs: AttributeSet) : View(context, attrs) {
     companion object {
         private val dp = Resources.getSystem().displayMetrics.density
         private const val sp = TypedValue.COMPLEX_UNIT_SP

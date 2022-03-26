@@ -17,7 +17,7 @@
         android:scaleType="centerCrop"
         android:transitionName="profile" />
 
-    <com.ayan.slider.SlideToPay
+    <com.ayan.slider.Slider
         android:layout_width="300dp"
         android:id="@+id/slider"
         app:frontRectangleColor="#D4D17B"
