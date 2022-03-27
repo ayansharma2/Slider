@@ -58,7 +58,7 @@ var slider = findViewById<Slider>(R.id.slider)
 ```
 Callback will be triggered whenver swipe is successfull
 
-##App Sample
+## App Sample
 
 
 
