@@ -1,7 +1,7 @@
 # Slider
 
 
-## This is Slide based on Amazon Swipe to Pay Slider
+## This is Slider based on Swipe to pay option in Amazon App
 
 Gradle Setup
 ----------
@@ -62,6 +62,9 @@ Callback will be triggered whenver swipe is successfull
 
 
 
-https://user-images.githubusercontent.com/44546310/160241810-527daf56-8c6a-41c7-8b0f-0d71fa08c419.mp4
+
+
+https://user-images.githubusercontent.com/44546310/160268696-bf0c2c73-4d21-43ec-962f-7fa5ed11de81.mp4
+
 
 
