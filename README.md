@@ -20,7 +20,7 @@ Add The Dependency in app level build.gradle
 
 ```
 dependencies {
-	        implementation 'com.github.ayansharma2:Slider:Tag'
+	        implementation 'com.github.ayansharma2:Slider:v1.1'
 	}
 
 ```
